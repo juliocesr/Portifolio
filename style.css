@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+a {
+    color: inherit;
+}
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    z-index: 1000;
+    height: 80px;
+}
+
+nav{
+    width: 50%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;    
+}
+
+main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    margin: 25px 0;
+    width: 750px;
+    height: 750px;
+}
+
+section h2 {
+    font-size: 40px;
+    margin: 40px 0;
+}
+section p {
+    text-align: justify;
+    font-size: 22px;
+    margin: 10px 0;
+}
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#exp{
+    height: 1500px;
+}
+.experiencias{
+    font-size: 22px;
+}
+.experiencias h3 {
+    margin: 15px 0;
+}
+.experiencias ul{
+    margin-left: 50px;
+}
+
+#projetos{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 180px 0;
+    height: 500px;
+}
+footer{
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h3{
+    font-size: 35px;
+}
+footer p{
+    font-size: 22px;
+}
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    max-width: 100%;
+    margin: auto;
+  }
+  
+  .carousel-window {
+    overflow: hidden;
+    width: 930px; 
+  }
+  
+  .carousel-track {
+    display: flex;
+    transition: transform 0.3s ease;
+  }
+  
+  .carousel-item {
+    flex: 0 0 300px;
+    height: 200px;
+    background: #f0f0f0;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    border-radius: 8px;
+  }
+  
+  button.prev,
+  button.next {
+    background: black;
+    color: white;
+    border: none;
+    padding: 0.7rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+    
+  }
+  .fade-in {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  
