@@ -148,4 +148,29 @@ footer p{
     transform: translateY(0);
   }
   
+  .projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.project {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+}
+.project img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.project h2 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
   
